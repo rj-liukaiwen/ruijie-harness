@@ -3,9 +3,14 @@
   "name": "Ruijie-Harness",
   "node": "24.12.0",
   "packageManager": "yarn",
-  "versionFiles": ["package.json", "dsh-plugin-desktop/package.json"],
+  "versionFiles": [
+    "package.json",
+    "dsh-plugin-desktop/package.json"
+  ],
   "adapter": ".release/adapter.mjs",
-  "targets": ["windows-x64", "linux-x64", "macos-universal"],
+  "targets": [
+    "linux-x64"
+  ],
   "signing": "testing",
   "allowPrerelease": false,
   "acceptanceBaseline": "v2.0.7",
